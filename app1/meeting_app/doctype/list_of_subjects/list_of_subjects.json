@@ -1,0 +1,36 @@
+{
+ "creation": "2019-07-25 09:41:45.129791",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "subjectid",
+  "subjectname"
+ ],
+ "fields": [
+  {
+   "fieldname": "subjectid",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Subject ID",
+   "options": "Subjects"
+  },
+  {
+   "fieldname": "subjectname",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Subject Name"
+  }
+ ],
+ "istable": 1,
+ "modified": "2019-07-25 11:01:50.608897",
+ "modified_by": "Administrator",
+ "module": "Meeting App",
+ "name": "List of Subjects",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

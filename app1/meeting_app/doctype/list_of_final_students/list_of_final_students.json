@@ -1,0 +1,36 @@
+{
+ "creation": "2019-07-26 16:02:09.179522",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "studentid",
+  "fullname"
+ ],
+ "fields": [
+  {
+   "fieldname": "studentid",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Student ID",
+   "options": "Student Information"
+  },
+  {
+   "fieldname": "fullname",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Fullname"
+  }
+ ],
+ "istable": 1,
+ "modified": "2019-07-26 16:06:26.241934",
+ "modified_by": "Administrator",
+ "module": "Meeting App",
+ "name": "List of Final Students",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

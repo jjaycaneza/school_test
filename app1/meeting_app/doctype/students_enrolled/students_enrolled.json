@@ -1,0 +1,51 @@
+{
+ "creation": "2019-07-25 09:40:12.260459",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "studentid",
+  "fullname",
+  "age",
+  "birthdate"
+ ],
+ "fields": [
+  {
+   "fieldname": "studentid",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Student ID",
+   "options": "Student Information"
+  },
+  {
+   "fieldname": "fullname",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Full Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Age"
+  },
+  {
+   "fieldname": "birthdate",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Birthdate"
+  }
+ ],
+ "istable": 1,
+ "modified": "2019-07-25 11:02:12.984276",
+ "modified_by": "Administrator",
+ "module": "Meeting App",
+ "name": "Students Enrolled",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

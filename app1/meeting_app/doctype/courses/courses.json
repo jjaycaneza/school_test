@@ -1,0 +1,61 @@
+{
+ "autoname": "COURSE ID.#####",
+ "creation": "2019-07-25 09:37:18.276762",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "courseid",
+  "coursename",
+  "studentsenrolled",
+  "listofsubjects"
+ ],
+ "fields": [
+  {
+   "fieldname": "courseid",
+   "fieldtype": "Data",
+   "label": "Course ID",
+   "unique": 1
+  },
+  {
+   "fieldname": "coursename",
+   "fieldtype": "Data",
+   "label": "Course Name"
+  },
+  {
+   "fieldname": "studentsenrolled",
+   "fieldtype": "Table",
+   "label": "Students Enrolled",
+   "options": "Students Enrolled"
+  },
+  {
+   "fieldname": "listofsubjects",
+   "fieldtype": "Table",
+   "label": "List of Subjects",
+   "options": "List of Subjects"
+  }
+ ],
+ "modified": "2019-07-25 11:01:07.777897",
+ "modified_by": "Administrator",
+ "module": "Meeting App",
+ "name": "Courses",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

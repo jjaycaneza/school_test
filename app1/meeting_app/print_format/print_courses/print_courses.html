@@ -1,0 +1,32 @@
+
+<div class="col-lg-12 col-md-12">
+    <h1 class="text-center">Yeah yeah University</h1>
+    <p class="text-center">Lapasan, Cagayan de Oro City </p>
+    <h3 class="text-right">{{doc.name}}</h3>
+    <table class="table table-bordered">
+        <tbody>
+            <tr>
+                <th>Student ID</th>
+                <th>First Name</th>
+                <th>Middle Name</th>
+                <th >Last Name</th>
+                <th>say Hi</th>
+
+
+            </tr>
+            {%- for row in doc.studentsenrolled -%}
+
+            <tr>
+                <td>{{ row.studentid }}</td>
+
+                <td>{{ frappe.db.get_value('Student Information',  row.studentid, 'firstname') }}</td>
+                <td>{{ frappe.db.get_value('Student Information',  row.studentid, 'middlename') }}</td>
+                <td>{{ frappe.db.get_value('Student Information',  row.studentid, 'lastname') }}</td>
+                <td>{{ doc.sayhi() }}</td>
+            </tr>
+             {%- endfor -%}
+        </tbody>
+    </table>
+
+</div>
+
